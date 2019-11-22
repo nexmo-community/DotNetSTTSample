@@ -14,4 +14,6 @@
 * Under Debug tab take note of the port number (may want to disable ssl for the sake of simplicity)
 * in command-line execute `ngrok http --host-header="localhost:<port_number>" http://localhost:<port_number>`
 * Link Nexmo Voice application to ngrok tunnel
+* Change BASE_URL in VoiceController.cs to the base url of your ngrok tunnel (excluding the http://)
+* In Transcription Engine set up the Speech Config with your subscription key and region.
 * Start in IIS express
